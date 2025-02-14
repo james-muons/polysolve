@@ -12,18 +12,18 @@ def quadratic(
         c: float,
         ) -> Tuple[float,float]:
     """
-     Solves the roots of a quadratic equation.
+    Solves the roots of a quadratic equation.
 
-     Uses the quadratic formula. Result must be real.
+    Uses the quadratic formula. Result must be real.
 
-     Parameters
-     ----------
-     a
-        :math:`x^2` coefficient.
-     b
-        :math:`x` coefficient.
-     c
-        Constant value.
+    Parameters
+    ----------
+    a
+       :math:`x^2` coefficient.
+    b
+       :math:`x` coefficient.
+    c
+       Constant value.
 
     Returns
     -------
@@ -46,9 +46,9 @@ def quadratic(
     Examples
     --------
     >>> quadratic(1., 0., 0.)
-    (0.0, -0.0)
+    (np.float64(0.0), np.float64(-0.0))
     >>> quadratic(3., 0., -1.)
-    (0.5773502691896257, -0.5773502691896257)
+    (np.float64(0.5773502691896257), np.float64(-0.5773502691896257))
 
     See Also
     --------
@@ -71,20 +71,20 @@ def cubic(
         d: float,
         ) -> Tuple[float,float,float]:
     """
-     Solves the roots of a quadratic equation.
+    Solves the roots of a quadratic equation.
 
      Uses the cubic formula. Result must be real.
 
-     Parameters
-     ----------
-     a
-        :math:`x^3` coefficient.
-     b
-        :math:`x^2` coefficient.
-     c
-        :math:`x` coefficient.
-     d
-        Constant value.
+    Parameters
+    ----------
+    a
+       :math:`x^3` coefficient.
+    b
+       :math:`x^2` coefficient.
+    c
+       :math:`x` coefficient.
+    d
+       Constant value.
 
     Returns
     -------
@@ -107,9 +107,9 @@ def cubic(
     Examples
     --------
     >>> quadratic(1., 0., 0.)
-    (0.0, -0.0)
+    (np.float64(0.0), np.float64(-0.0))
     >>> quadratic(3., 0., -1.)
-    (0.5773502691896257, -0.5773502691896257)
+    (np.float64(0.5773502691896257), np.float64(-0.5773502691896257))
 
     See Also
     --------
